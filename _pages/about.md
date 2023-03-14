@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='ed.ac.uk'>The University of Edinburgh</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
