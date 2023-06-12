@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I attend the TPMPC 2022. Details of the workshop can be find at <a href='https://www.multipartycomputation.com/tpmpc-2022'>TPMPC2022</a>
+I attend TPMPC 2022. Details of the workshop can be find at <a href='https://www.multipartycomputation.com/tpmpc-2022'>TPMPC2022</a>
