@@ -6,7 +6,7 @@ subtitle: <a href='https://www.ed.ac.uk/'>The University of Edinburgh</a>. <a hr
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: me.jpg
   image_circular: false # crops the image to make it circular
   address: <p>Appleton Tower 8.01</p>
     <p>11 Crichton St, Newington</p>
