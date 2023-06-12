@@ -2,9 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.ed.ac.uk/'>The University of Edinburgh</a>. 
-<a href='https://www.ed.ac.uk/informatics/'>School of Informatics</a>.
-
+subtitle: <a href='https://www.ed.ac.uk/'>The University of Edinburgh</a>. <a href='https://www.ed.ac.uk/informatics/'>School of Informatics</a>.
 
 profile:
   align: right
