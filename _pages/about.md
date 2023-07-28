@@ -20,3 +20,5 @@ social: true  # includes social icons at the bottom of the page
 A Second-year PhD student working on cryptography, specializing in Zero-Knowledge (ZK) and Secure Multi-party Computation (MPC).
 
 Also, I am a table tennis player/learner. My recent table tennis match records can be find in <a href='https://www.ratingscentral.com/Player.php?PlayerID=138451'>Ratings Central</a>.
+
+Now trying to learn Piano/Flute/Rollerskating/Singing.
