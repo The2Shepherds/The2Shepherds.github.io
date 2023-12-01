@@ -2,22 +2,23 @@
   - firstname: ["Michele", "M."]
     url: https://scholar.google.com/citations?user=jho-cksAAAAJ&hl=en
 
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Ravi":
+  - firstname: ["Divya", "D."]
+    url: https://scholar.google.co.in/citations?user=lSanMWUAAAAJ&hl=en
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Siniscalchi":
+  - firstname: ["Luisa", "L."]
+    url: https://scholar.google.com/citations?user=pzi3xdsAAAAJ&hl=it
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Damgård":
+  - firstname: ["Ivan", "I."]
+    url: https://scholar.google.com/citations?user=-UhqXIEAAAAJ&hl=en
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Yakoubov": 
+  - firstname: ["Sophia", "S."]
+    url: https://scholar.google.com/citations?user=Y_XwzKQAAAAJ&hl=en
 
+"Bach":
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
