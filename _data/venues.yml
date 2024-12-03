@@ -2,8 +2,9 @@
   url: https://tcc.iacr.org/2023/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ACNS2025":
+  url: https://acns2025.fordaysec.de/
+  color: "#1d7769"
 
 "ACNS2023":
   url: https://sulab-sever.u-aizu.ac.jp/acns2023/
