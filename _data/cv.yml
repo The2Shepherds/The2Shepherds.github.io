@@ -13,7 +13,7 @@
       institution: The University of Edinburgh, Edinburgh, UK
       year: 2021-2025
 
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
     - title: Cryptography
