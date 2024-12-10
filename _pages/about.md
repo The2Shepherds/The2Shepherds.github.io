@@ -18,5 +18,3 @@ social: true # includes social icons at the bottom of the page
 ---
 
 A PhD student working on cryptography at The University of Edinburgh, under the supervision of <a href='https://www.research.ed.ac.uk/en/persons/michele-ciampi'>Dr. Michele Ciampi</a>, and my main research interests lie in Zero-Knowledge (ZK) and Secure Multi-party Computation (MPC).
-
-Also, I am a table tennis player/learner. My recent table tennis match records can be find in <a href='https://www.ratingscentral.com/Player.php?PlayerID=138451'>Ratings Central</a>. I am also trying to learn Piano/Flute/Rollerskating/Singing.
