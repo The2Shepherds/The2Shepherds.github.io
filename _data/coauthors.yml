@@ -1,27 +1,31 @@
-"Ciampi":
+"ciampi":
   - firstname: ["Michele", "M."]
     url: https://scholar.google.com/citations?user=jho-cksAAAAJ&hl=en
 
-"Ravi":
-  - firstname: ["Divya", "D."]
-    url: https://scholar.google.co.in/citations?user=lSanMWUAAAAJ&hl=en
+"sternad":
+  - firstname: ["Jure", "J."]
+    url: https://dblp.org/pid/394/4694.html
 
-"Siniscalchi":
+"ravi":
+  - firstname: ["Divya", "D."]
+    url: https://scholar.google.com/citations?user=lSanMWUAAAAJ&hl=en
+
+"siniscalchi":
   - firstname: ["Luisa", "L."]
     url: https://scholar.google.com/citations?user=pzi3xdsAAAAJ&hl=it
 
-"Damgård":
+"damgard":
   - firstname: ["Ivan", "I."]
     url: https://scholar.google.com/citations?user=-UhqXIEAAAAJ&hl=en
 
-"Yakoubov": 
+"yakoubov": 
   - firstname: ["Sophia", "S."]
     url: https://scholar.google.com/citations?user=Y_XwzKQAAAAJ&hl=en
 
-"Magliocco":
+"magliocco":
   - firstname: ["Lorenzo", "L."]
     url: https://dblp.org/pid/362/6152.html
 
-"Venturi":
+"venturi":
   - firstname: ["Daniele", "D."]
     url: https://scholar.google.com/citations?user=dCsqhREAAAAJ&hl=en

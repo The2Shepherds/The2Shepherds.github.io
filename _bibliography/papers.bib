@@ -1,28 +1,58 @@
 ---
 ---
+@inproceedings{AC:CRSX25,
+  abbr={Asiacrypt2025},
+  title={(to appear) Broadcast-Optimal Secure Computation From Black-Box Oblivious Transfer},
+  author={Ciampi, Michele and Ravi, Divya and Siniscalchi, Luisa and Xia, Yu},
+  booktitle={Advances in Cryptology -- {ASIACRYPT}},
+  year={2025},
+  selected={true}
+}
+
+@inproceedings{ACNS:CiaSteXia25,
+  abbr={ACNS2025},
+  title={Delayed-Input Multi-Party Computation},
+  author={Ciampi, Michele and Sternad, Jure and Xia, Yu},
+  abstract={In this work, we consider the setting where the process of securely evaluating a multi-party functionality is divided into two phases: <em>offline</em> (or <em>preprocessing</em>) and <em>online</em>. The offline phase is independent of the parties’ inputs, whereas the online phase does require the knowledge of the inputs. We consider the problem of minimizing the round of communication required in the online phase and propose a <em>round preserving</em> compiler that can turn a big class of multi-party computation (MPC) protocols into protocols in which only the last two rounds are input-dependent. Our compiler can be applied to a big class of MPC protocols, and in particular to all existing round-optimal MPC protocols. All our results assume no setup and are proven in the dishonest majority setting with black-box simulation. 
+    <br /><br />  
+    As part of our contribution, we propose a new definition we call <em>Multi-Party Computation with Adaptive-Input Selection</em>, which allows the distinguisher to craft the inputs the honest parties should use during the online phase, adaptively on the offline phase. This new definition is needed to argue that not only are the messages of the offline phase input-independent but also that security holds even in the stronger (and realistic) adversarial setting where the inputs may depend on some of the offline-phase protocol messages. We argue that this is the definition that any protocol should satisfy to be securely used while preprocessing part of the rounds. We are the first to study this definition in a setting where there is no setup, and the majority of the parties can be corrupted. Prior definitions have been presented in the Universal Composable framework, which is unfortunately not well suited for our setting (i.e., no setup and dishonest majority). As a corollary, we obtain the first four-round (which is optimal) MPC protocol, where the first two rounds can be preprocessed, and its security holds against adaptive-input selection.},
+  booktitle={ACNS 2025: 23rd International Conference on Applied Cryptography and Network Security, Part I},
+  editor={Marc Fischlin and Veelasha Moonsamy},
+  publisher={Springer, Cham, Switzerland},
+  address={Munich, Germany},
+  isbn={978-3-031-95761-1},
+  doi={10.1007/978-3-031-95761-1_12},
+  pages={339--368},
+  year={2025},
+  numpages={30},
+  keywords={Secure multi-party computation, Delayed-input, Round-optimal, Preprocessing},
+  bibtex_show={true},
+  eprint={2025/354},
+  altmetric={false},
+  selected={true}
+}
+
 @inproceedings{ACNS:CiaXia23,
   abbr={ACNS2023},
   title={Multi-Theorem Fiat-Shamir Transform from Correlation-Intractable Hash Functions},
   author={Ciampi, Michele and Xia, Yu},
-  abstract={In STOC 2019 Canetti et al. showed how to soundly instantiate the Fiat-Shamir transform assuming that prover and verifier have access to the key of a correlation intractable hash function for efficiently searchable relations. The transform requires the starting protocol to be a special 3-round public-coin scheme that Canetti et al. call trapdoor sigma-protocol. One downside of the Canetti et al. approach is that the key of the hash function can be used only once (or a pre-determined bounded number of times). That is, each new zero-knowledge proof requires a freshly generated hash key (i.e., a freshly generated setup). This is in contrast to what happens with the standard Fiat-Shamir transform, where the prover, having access to the same hash function(modelled as a random-oracle), can generate an unbounded number of proofs that are guaranteed to be zero-knowledge and sound.
+  abstract={In STOC 2019 Canetti et al. showed how to soundly instantiate the Fiat-Shamir transform assuming that prover and verifier have access to the key of a <em>correlation intractable hash function for efficiently searchable relations</em>. The transform requires the starting protocol to be a special 3-round public-coin scheme that Canetti et al. call <em>trapdoor sigma-protocol</em>. One downside of the Canetti et al. approach is that the key of the hash function can be used only once (or a pre-determined bounded number of times). That is, each new zero-knowledge proof requires a freshly generated hash key (i.e., a freshly generated setup). This is in contrast to what happens with the standard Fiat-Shamir transform, where the prover, having access to the same hash function(modelled as a random-oracle), can generate an unbounded number of proofs that are guaranteed to be zero-knowledge and sound.
     <br /><br />
     As our main contribution we extend the results of Canetti et al., by proposing a multi-theorem protocol that follows the Fiat-Shamir paradigm and relies on correlation intractable hash functions. Moreover, our protocol remains zero-knowledge and sound even against adversaries that choose the statement to be proven (and the witness for the case of zero-knowledge) adaptively on the key of the hash function. Our construction is presented in the form of a compiler, that follows the Fiat-Shamir paradigm, which takes as input any trapdoor sigma-protocol for the NP-language L and turns it into a non-interactive zero-knowledge protocol that satisfies the properties we mentioned. To be best of our knowledge, ours is the first compiler that follows the Fiat-Shamir paradigm to obtain a multi-theorem adaptive NIZK relying on correlation intractable hash functions.},
-  booktitle={Applied Cryptography and Network Security: 21st International Conference, ACNS 2023, Kyoto, Japan, June 19--22, 2023, Proceedings, Part II},
-  editor={Tibouchi, Mehdi and Wang, XiaoFeng},
-  publisher={Springer Nature Switzerland},
-  address={Cham},
+  booktitle={ACNS 2023: 21st International Conference on Applied Cryptography and Network Security, Part II},
+  editor={Mehdi Tibouchi and Xiaofeng Wang},
+  publisher={Springer, Cham, Switzerland},
+  volume={13906},
+  address={Kyoto, Japan},
   isbn={978-3-031-33491-7},
-  url={https://link.springer.com/chapter/10.1007/978-3-031-33491-7_21},
   doi={10.1007/978-3-031-33491-7_21},
   pages={555--581},
   year={2023},
   numpages={27},
   keywords={Fiat-Shamir Transform, NIZK, Correlation Intractable Hash Functions, Adaptive Multi-Theorem Zero-Knowledge},
-  location={Kyoto, Japan},
   bibtex_show={true},
-  html={https://link.springer.com/chapter/10.1007/978-3-031-33491-7_21},
-  altmetric={true},
-  dimensions={true},
+  eprint={2023/1677},
+  altmetric={false},
   selected={true}
 }
 
@@ -34,24 +64,23 @@
     and Siniscalchi, Luisa
     and Xia, Yu
     and Yakoubov, Sophia},
-  editor={Rothblum, Guy
-    and Wee, Hoeteck},
+  editor={Guy N. Rothblum and Hoeteck Wee},
   title={Broadcast-Optimal Four-Round MPC in the Plain Model},
-  booktitle="Theory of Cryptography: 21st International Conference, TCC 2023, Taipei, Taiwan, November 29 – December 2, 2023, Proceedings, Part II",
+  volume={14370},
+  booktitle={TCC 2023: 21st Theory of Cryptography Conference, Part II},
   year={2023},
-  publisher="Springer Nature Switzerland",
-  address="Cham",
+  publisher={Springer, Cham, Switzerland},
+  address={Taipei, Taiwan},
   numpages="30",
   pages="3--32",
-  abstract="The prior works of Cohen, Garay and Zikas (Eurocrypt 2020), Damg{\aa}rd, Magri, Ravi, Siniscalchi and Yakoubov (Crypto 2021) and Damg{\aa}rd, Ravi, Siniscalchi and Yakoubov (Eurocrypt 2023) study 2-round Multi-Party Computation (where some form of set-up is required). Motivated by the fact that broadcast is an expensive resource, they focus on so-called broadcast optimal MPC, i.e., they give tight characterizations of which security guarantees are achievable, if broadcast is available in the first round, the second round, both rounds, or not at all.
+  abstract="The prior works of Cohen, Garay and Zikas (Eurocrypt 2020), Damg{\aa}rd, Magri, Ravi, Siniscalchi and Yakoubov (Crypto 2021) and Damg{\aa}rd, Ravi, Siniscalchi and Yakoubov (Eurocrypt 2023) study 2-round Multi-Party Computation (where some form of set-up is required). Motivated by the fact that broadcast is an expensive resource, they focus on so-called <em>broadcast optimal MPC</em>, i.e., they give tight characterizations of which security guarantees are achievable, if broadcast is available in the first round, the second round, both rounds, or not at all.
     <br /><br />
     This work considers the natural question of characterizing broadcast optimal MPC in the plain model where no set-up is assumed. We focus on 4-round protocols, since 4 is known to be the minimal number of rounds required to securely realize any functionality with black-box simulation. We give a complete characterization of which security guarantees, (namely selective abort, selective identifiable abort, unanimous abort and identifiable abort) are feasible or not, depending on the exact selection of rounds in which broadcast is available.",
   isbn="978-3-031-48618-0",
   doi="10.1007/978-3-031-48618-0_1",
   bibtex_show={true},
-  html={https://link.springer.com/chapter/10.1007/978-3-031-48618-0_1},
-  altmetric={true},
-  dimensions={true},
+  eprint={2023/1739},
+  altmetric={false},
   video={https://www.youtube.com/watch?v=A6hZImt7Cd4},
   selected={true}
 }
